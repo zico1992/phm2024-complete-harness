@@ -1,0 +1,66 @@
+{
+  "status": "unconfirmed",
+  "confirmed_by": "",
+  "confirmed_at": "",
+  "baseline_sha256": "COPY_FROM_FROZEN_MANIFEST",
+  "baseline_physics": {
+    "temperature_unit": "C",
+    "pa_meaning": "opaque",
+    "pa_unit": "unknown",
+    "ias_unit": "unknown",
+    "regimes": 6
+  },
+  "measurements": {
+    "trq_measured": {
+      "meaning": "CONFIRM_WITH_DATA_OWNER",
+      "source_unit": "CONFIRM",
+      "baseline_unit": "CONFIRM",
+      "scale": 1.0,
+      "offset": 0.0
+    },
+    "oat": {
+      "meaning": "CONFIRM_WITH_DATA_OWNER",
+      "source_unit": "CONFIRM",
+      "baseline_unit": "CONFIRM",
+      "scale": 1.0,
+      "offset": 0.0
+    },
+    "mgt": {
+      "meaning": "CONFIRM_WITH_DATA_OWNER",
+      "source_unit": "CONFIRM",
+      "baseline_unit": "CONFIRM",
+      "scale": 1.0,
+      "offset": 0.0
+    },
+    "pa": {
+      "meaning": "CONFIRM_WITH_DATA_OWNER",
+      "source_unit": "CONFIRM",
+      "baseline_unit": "CONFIRM",
+      "scale": 1.0,
+      "offset": 0.0
+    },
+    "ias": {
+      "meaning": "CONFIRM_WITH_DATA_OWNER",
+      "source_unit": "CONFIRM",
+      "baseline_unit": "CONFIRM",
+      "scale": 1.0,
+      "offset": 0.0
+    },
+    "np": {
+      "meaning": "CONFIRM_WITH_DATA_OWNER",
+      "source_unit": "CONFIRM",
+      "baseline_unit": "CONFIRM",
+      "scale": 1.0,
+      "offset": 0.0
+    },
+    "ng": {
+      "meaning": "CONFIRM_WITH_DATA_OWNER",
+      "source_unit": "CONFIRM",
+      "baseline_unit": "CONFIRM",
+      "scale": 1.0,
+      "offset": 0.0
+    }
+  },
+  "label_definition": "Confirm fault diagnosis and torque-margin reference. Not derived from margin sign.",
+  "timestamp_definition": "Observation timestamp with explicit UTC offset; label timestamp is confirmation time."
+}

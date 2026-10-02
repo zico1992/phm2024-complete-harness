@@ -1,0 +1,30 @@
+{
+  "mode": "combined",
+  "architecture": "direct",
+  "keep": [
+    "gas_ambient_temperature_ratio_proxy",
+    "ias",
+    "mgt",
+    "mgt_regime_deviation",
+    "ng",
+    "ng_corrected_ambient_proxy",
+    "ng_regime_deviation",
+    "np",
+    "np_ng_difference",
+    "np_ng_ratio_proxy",
+    "np_regime_deviation",
+    "oat",
+    "oat_pa_interaction",
+    "pa",
+    "regime_distance_0",
+    "regime_distance_1",
+    "regime_distance_2",
+    "regime_distance_3",
+    "regime_distance_4",
+    "regime_distance_5",
+    "thermal_loading_proxy",
+    "torque_mgt_ratio_proxy",
+    "torque_ng_ratio_proxy",
+    "trq_measured"
+  ]
+}

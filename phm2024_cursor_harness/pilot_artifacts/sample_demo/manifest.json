@@ -1,0 +1,62 @@
+{
+  "name": "sample-demo-20000-frozen",
+  "created_at": "2026-10-01T10:22:43.304274+00:00",
+  "baseline_sha256": "658812bb98fbc71aec0ca7148010d3ce9dbca9f83229054a474c349e5e79aa51",
+  "reliability_sha256": "7b7a20810c996bc937bae41486434214ead1fd1ea15002b490203b0c4ac12c39",
+  "policy_sha256": "6dd38778db961a318c10115a9fe0cc44b45b1322cd4121d79053d952ba16901b",
+  "training_csv_sha256": "c504b5b12e96380c5b503a9f7bfab55753bfcb13854118ac839717f2c4f8432f",
+  "training_n": 15002,
+  "calibration_n": 1999,
+  "reference_n": 10000,
+  "spec": {
+    "mode": "combined",
+    "architecture": "direct"
+  },
+  "physics": {
+    "temperature_unit": "C",
+    "pa_meaning": "opaque",
+    "pa_unit": "unknown",
+    "ias_unit": "unknown",
+    "regimes": 6
+  },
+  "threshold": 0.3,
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "coverage_evidence": [
+    {
+      "regime": 0,
+      "n": 112,
+      "coverage_90": 0.9375
+    },
+    {
+      "regime": 1,
+      "n": 484,
+      "coverage_90": 0.9380165289256198
+    },
+    {
+      "regime": 2,
+      "n": 640,
+      "coverage_90": 0.9234375
+    },
+    {
+      "regime": 3,
+      "n": 252,
+      "coverage_90": 0.9206349206349206
+    },
+    {
+      "regime": 4,
+      "n": 456,
+      "coverage_90": 0.9254385964912281
+    },
+    {
+      "regime": 5,
+      "n": 55,
+      "coverage_90": 0.8727272727272727
+    }
+  ],
+  "baseline_engine_ids": "unavailable; unseen-engine independence cannot be verified"
+}

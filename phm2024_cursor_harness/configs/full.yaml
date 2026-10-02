@@ -1,0 +1,25 @@
+seed: 42
+threads: 4
+max_rows: null
+iterations: 220
+leaves: 31
+stack_folds: 5
+scale_floor: 0.05
+permutation_rows: 3000
+permutation_repeats: 3
+selection_top_k: 22
+bootstrap_repeats: 200
+stress_regimes: 2
+physics:
+  temperature_unit: C
+  pa_meaning: opaque
+  pa_unit: unknown
+  ias_unit: unknown
+  regimes: 6
+candidates:
+  - {mode: raw, architecture: linear}
+  - {mode: raw, architecture: direct}
+  - {mode: physics, architecture: direct}
+  - {mode: statistical, architecture: direct}
+  - {mode: combined, architecture: direct}
+  - {mode: combined, architecture: target_torque}

@@ -1,0 +1,7 @@
+---
+description: PHM 2024 physics-informed modelling experiment and leakage rules
+alwaysApply: true
+---
+Follow AGENTS.md in this project. Use CURSOR_TASK.md as the execution checklist.
+Preserve fold-local fitting, duplicate groups, locked holdout and uncertainty evaluation.
+Every claimed metric must link to a completed run artifact. Do not silently assume PA/NP meanings.

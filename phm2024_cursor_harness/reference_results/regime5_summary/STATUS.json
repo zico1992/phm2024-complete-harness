@@ -1,0 +1,4 @@
+{
+  "status": "historical verified reproduction summary",
+  "note": "The original full-run stress model was not saved. This investigation reproduced the exclusion experiment; it is not the full champion. Includes summaries only, not the large historical per-row/model exports. Use investigation helpers for a new explicit diagnostic experiment."
+}

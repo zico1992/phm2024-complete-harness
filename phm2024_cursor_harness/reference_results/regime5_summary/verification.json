@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "prediction_rows": 24456,
+  "checks": [
+    "persisted cluster reproduces membership",
+    "source measurements and targets match exports",
+    "fitting/calibration/evaluation are separated",
+    "excluded regime absent from stressed fitting and calibration",
+    "duplicate groups remain separated",
+    "saved stressed model reproduces predictions and metrics",
+    "nearest reference IDs are fitting rows",
+    "random-control artifact reproduces predictions"
+  ],
+  "original_experiment_identity": "Not verified or claimed; these are instrumented reproduction artifacts."
+}

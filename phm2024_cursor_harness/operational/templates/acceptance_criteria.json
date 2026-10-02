@@ -1,0 +1,14 @@
+{
+  "status": "unapproved",
+  "approved_by": "",
+  "max_missed_fault_positive_flights": null,
+  "max_false_alerts_per_100_healthy_flights": null,
+  "minimum_fault_recall": null,
+  "minimum_90_interval_coverage": null,
+  "maximum_rejected_fraction": null,
+  "minimum_labelled_engines": null,
+  "minimum_labelled_flights": null,
+  "minimum_fault_positive_flights": null,
+  "intended_review_action": "Engineering review; no automatic control",
+  "note": "Agree before evaluating an independent operational cohort. No automatic pass/fail is implemented until criteria and statistical evidence are approved."
+}

@@ -1,0 +1,6 @@
+{
+  "status": "uploaded result files only",
+  "selected_model_available": false,
+  "completion_file_available": false,
+  "note": "Not a runnable or independently verified full-model artifact. User original run is my_full_run; register its saved model locally."
+}

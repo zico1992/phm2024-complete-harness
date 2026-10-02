@@ -1,0 +1,27 @@
+seed: 42
+threads: 4
+max_rows: 60000
+iterations: 100
+leaves: 31
+stack_folds: 3
+scale_floor: 0.05
+permutation_rows: 1500
+permutation_repeats: 2
+selection_top_k: 18
+bootstrap_repeats: 100
+stress_regimes: 1
+physics:
+  # C is a plausible documented assumption from the values; not verified metadata.
+  temperature_unit: C
+  # Official sources disagree with papers: keep altitude derivations off by default.
+  pa_meaning: opaque
+  pa_unit: unknown
+  ias_unit: unknown
+  regimes: 6
+candidates:
+  - {mode: raw, architecture: linear}
+  - {mode: raw, architecture: direct}
+  - {mode: physics, architecture: direct}
+  - {mode: statistical, architecture: direct}
+  - {mode: combined, architecture: direct}
+  - {mode: combined, architecture: target_torque}

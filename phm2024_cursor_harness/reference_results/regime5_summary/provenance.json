@@ -1,0 +1,125 @@
+{
+  "status": "new_instrumented_reproduction",
+  "regime": 5,
+  "original_cluster_recovery": "Not established: original fitted stress cluster/model and row-level stress predictions were not saved.",
+  "original_counts": {
+    "fit_rows": 433318,
+    "calibration_rows": 57774,
+    "holdout_rows": 24485
+  },
+  "reproduced_counts": {
+    "fit_rows": 433407,
+    "calibration_rows": 57828,
+    "holdout_rows": 24456
+  },
+  "counts_match_original": false,
+  "warning": "Matching counts alone would not prove identical membership or predictions.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "sklearn": "1.8.0",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "config": {
+    "seed": 42,
+    "threads": 4,
+    "max_rows": null,
+    "iterations": 220,
+    "leaves": 31,
+    "stack_folds": 5,
+    "scale_floor": 0.05,
+    "permutation_rows": 3000,
+    "permutation_repeats": 3,
+    "selection_top_k": 22,
+    "bootstrap_repeats": 200,
+    "stress_regimes": 2,
+    "physics": {
+      "temperature_unit": "C",
+      "pa_meaning": "opaque",
+      "pa_unit": "unknown",
+      "ias_unit": "unknown",
+      "regimes": 6
+    },
+    "candidates": [
+      {
+        "mode": "raw",
+        "architecture": "linear"
+      },
+      {
+        "mode": "raw",
+        "architecture": "direct"
+      },
+      {
+        "mode": "physics",
+        "architecture": "direct"
+      },
+      {
+        "mode": "statistical",
+        "architecture": "direct"
+      },
+      {
+        "mode": "combined",
+        "architecture": "direct"
+      },
+      {
+        "mode": "combined",
+        "architecture": "target_torque"
+      }
+    ]
+  },
+  "selected_spec": {
+    "mode": "combined",
+    "architecture": "direct",
+    "keep": [
+      "gas_ambient_temperature_ratio_proxy",
+      "ias",
+      "mgt",
+      "mgt_regime_deviation",
+      "ng",
+      "ng_corrected_ambient_proxy",
+      "ng_regime_deviation",
+      "np",
+      "np_ng_difference",
+      "np_ng_ratio_proxy",
+      "np_regime_deviation",
+      "oat",
+      "oat_pa_interaction",
+      "pa",
+      "regime_distance_0",
+      "regime_distance_1",
+      "regime_distance_2",
+      "regime_distance_3",
+      "regime_distance_4",
+      "regime_distance_5",
+      "thermal_loading_proxy",
+      "torque_mgt_ratio_proxy",
+      "torque_ng_ratio_proxy",
+      "trq_measured"
+    ]
+  },
+  "input_manifest": {
+    "X_test.csv": {
+      "sha256": "d90de7b1a5ece6a4ff1f5864d69a6924cbd2429724fa2a5124f58d11c0059bbf",
+      "bytes": 1073339
+    },
+    "X_train.csv": {
+      "sha256": "c504b5b12e96380c5b503a9f7bfab55753bfcb13854118ac839717f2c4f8432f",
+      "bytes": 40422620
+    },
+    "X_validation.csv": {
+      "sha256": "9f35295a133d7c026f990c4da4760d86414e104306b580afb8d2cbf49dced78e",
+      "bytes": 1073846
+    },
+    "holdout_predictions.csv": {
+      "sha256": "213e0847630b95fa50f0f13212ac04aa0bc98db051cef208a96f64ab3c3390cc",
+      "bytes": 12832197
+    },
+    "leaderboard.csv": {
+      "sha256": "d6d69e86612b32fb0c06363fad4373cb04ce62b5b83822ce2cf682fbdeb49372",
+      "bytes": 870
+    },
+    "y_train.csv": {
+      "sha256": "fed333982c25bb751609694dea07a81a92c1f96a4832019df2b3c9597caf0d51",
+      "bytes": 20536844
+    }
+  }
+}

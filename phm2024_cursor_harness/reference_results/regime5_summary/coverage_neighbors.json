@@ -1,0 +1,22 @@
+[
+  {
+    "space": "environment",
+    "reference_fit_sample_rows": 100000,
+    "retained_holdout_median_distance": 0.004986542491809398,
+    "retained_holdout_p95_distance": 0.024479645724674842,
+    "excluded_holdout_median_distance": 0.2290457087793522,
+    "excluded_fraction_above_retained_p95": 0.9694962381419693,
+    "distance_vs_abs_error_spearman": 0.12783043827295676,
+    "distance_vs_classification_error_spearman": 0.16113771987995684
+  },
+  {
+    "space": "all_raw",
+    "reference_fit_sample_rows": 100000,
+    "retained_holdout_median_distance": 0.040069138813468255,
+    "retained_holdout_p95_distance": 0.1212941779250703,
+    "excluded_holdout_median_distance": 0.335950653640647,
+    "excluded_fraction_above_retained_p95": 0.9023552502453386,
+    "distance_vs_abs_error_spearman": 0.17594361431512204,
+    "distance_vs_classification_error_spearman": 0.14828243325207907
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "classification": {
+    "accuracy": 0.997809321158905,
+    "balanced_accuracy": 0.997976515486268,
+    "precision_faulty": 0.9957413773982478,
+    "recall_faulty": 0.9988430303704527,
+    "f1": 0.9972897922914584,
+    "f2": 0.9982211549151713,
+    "roc_auc": 0.9999743433115157,
+    "pr_auc": 0.9999623643974033,
+    "brier": 0.0013744210522077258,
+    "log_loss": 0.005338738912798468,
+    "ece": 0.0005089645324246242,
+    "false_negatives": 52,
+    "false_positives": 192,
+    "confusion_matrix": [
+      [
+        66244,
+        192
+      ],
+      [
+        52,
+        44893
+      ]
+    ],
+    "threshold": 0.245,
+    "published_classification_score": 0.9953863809775203
+  },
+  "regression": {
+    "mae": 0.5353988915136226,
+    "rmse": 0.7726552125618895,
+    "r2": 0.9970284017808967,
+    "normal_nll": 0.9618791935590445,
+    "normal_crps": 0.3834865476974381,
+    "residual_bias": 3.5521428584352796e-05,
+    "within_0_5_margin_points": 0.6059381761700828,
+    "interval_90_coverage": 0.9062586976234726,
+    "interval_90_mean_width": 2.187532401392966,
+    "interval_95_coverage": 0.9480791158276546,
+    "mean_raw_pdf_at_truth": 0.48789337750196565
+  },
+  "reliability": [
+    {
+      "bin": 0,
+      "count": 66103,
+      "predicted_probability": 0.0005046430794013992,
+      "observed_fault_fraction": 0.0003479418483276099
+    },
+    {
+      "bin": 1,
+      "count": 159,
+      "predicted_probability": 0.1441268810108611,
+      "observed_fault_fraction": 0.12578616352201258
+    },
+    {
+      "bin": 2,
+      "count": 79,
+      "predicted_probability": 0.2484764468995547,
+      "observed_fault_fraction": 0.27848101265822783
+    },
+    {
+      "bin": 3,
+      "count": 52,
+      "predicted_probability": 0.3500377833390951,
+      "observed_fault_fraction": 0.25
+    },
+    {
+      "bin": 4,
+      "count": 55,
+      "predicted_probability": 0.4469683880753134,
+      "observed_fault_fraction": 0.41818181818181815
+    },
+    {
+      "bin": 5,
+      "count": 54,
+      "predicted_probability": 0.5581005382156347,
+      "observed_fault_fraction": 0.6666666666666666
+    },
+    {
+      "bin": 6,
+      "count": 67,
+      "predicted_probability": 0.6572295313276105,
+      "observed_fault_fraction": 0.6567164179104478
+    },
+    {
+      "bin": 7,
+      "count": 77,
+      "predicted_probability": 0.749230168237298,
+      "observed_fault_fraction": 0.8831168831168831
+    },
+    {
+      "bin": 8,
+      "count": 152,
+      "predicted_probability": 0.8571794755705499,
+      "observed_fault_fraction": 0.8947368421052632
+    },
+    {
+      "bin": 9,
+      "count": 44583,
+      "predicted_probability": 0.9992072348213317,
+      "observed_fault_fraction": 0.9994841082923984
+    }
+  ],
+  "n": 111381,
+  "official_combined_score": null,
+  "score_note": "Classification formula reproduced. Raw PDF, NLL and CRPS are diagnostics; organizer regression normalization is unspecified, so no official combined score is claimed."
+}

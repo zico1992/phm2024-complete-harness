@@ -1,0 +1,39 @@
+test_altitude_gate (test_contracts.ContractTests.test_altitude_gate) ... ok
+test_atmosphere (test_contracts.ContractTests.test_atmosphere) ... ok
+test_bayes_action (test_contracts.ContractTests.test_bayes_action) ... ok
+test_feature_independence (test_contracts.ContractTests.test_feature_independence) ... ok
+test_group_splits (test_contracts.ContractTests.test_group_splits) ... ok
+test_ids (test_contracts.ContractTests.test_ids) ... ok
+test_join (test_contracts.ContractTests.test_join) ... ok
+test_joint_models (test_contracts.ContractTests.test_joint_models) ... ok
+test_scoring (test_contracts.ContractTests.test_scoring) ... ok
+test_operational_shadow_can_save_before_labels_arrive (test_delayed.DelayedContracts.test_operational_shadow_can_save_before_labels_arrive) ... ok
+test_partial_then_cumulative_labels_preserve_source_and_predictions (test_delayed.DelayedContracts.test_partial_then_cumulative_labels_preserve_source_and_predictions) ... ok
+test_tampered_predictions_and_labels_are_rejected (test_delayed.DelayedContracts.test_tampered_predictions_and_labels_are_rejected) ... ok
+test_single_observation_has_no_r2_and_fixed_confusion_shape (test_metric_edge_cases.MetricEdgeCases.test_single_observation_has_no_r2_and_fixed_confusion_shape) ... ok
+test_single_truth_class_counts_false_alerts_without_warning (test_metric_edge_cases.MetricEdgeCases.test_single_truth_class_counts_false_alerts_without_warning) ... ok
+test_artifact_tamper_rejected (test_pilot.PilotContracts.test_artifact_tamper_rejected) ... ok
+test_duplicate_observation_id_rejected (test_pilot.PilotContracts.test_duplicate_observation_id_rejected) ... ok
+test_extra_label_columns_cannot_change_prediction (test_pilot.PilotContracts.test_extra_label_columns_cannot_change_prediction) ... ok
+test_frozen_predictions_equal_baseline (test_pilot.PilotContracts.test_frozen_predictions_equal_baseline) ... ok
+test_intake_requires_confirmed_contract_and_temporal_metadata (test_pilot.PilotContracts.test_intake_requires_confirmed_contract_and_temporal_metadata) ... ok
+test_invalid_rows_do_not_receive_predictions (test_pilot.PilotContracts.test_invalid_rows_do_not_receive_predictions) ... ok
+test_joint_novelty_inside_every_univariate_range (test_pilot.PilotContracts.test_joint_novelty_inside_every_univariate_range) ... ok
+test_labels_preceding_observation_rejected (test_pilot.PilotContracts.test_labels_preceding_observation_rejected) ... ok
+test_partial_labels_and_invalid_rows_counted (test_pilot.PilotContracts.test_partial_labels_and_invalid_rows_counted) ... ok
+test_seen_measurements_excluded_from_metrics (test_pilot.PilotContracts.test_seen_measurements_excluded_from_metrics) ... ok
+test_database_connections_close_after_commit_and_rollback (test_pilot_workflow.DatabaseContracts.test_database_connections_close_after_commit_and_rollback) ... ok
+test_complete_labelled_shadow_on_temporary_contract_fixture (test_pilot_workflow.WorkflowContracts.test_complete_labelled_shadow_on_temporary_contract_fixture) ... ok
+test_local_api_predictions_reviews_and_session_boundary (test_pilot_workflow.WorkflowContracts.test_local_api_predictions_reviews_and_session_boundary) ... ok
+test_completed_review_closes_queue_but_does_not_change_signal (test_review_priority.ReviewPriorityContracts.test_completed_review_closes_queue_but_does_not_change_signal) ... ok
+test_priority_uses_predictions_and_support_not_outcomes (test_review_priority.ReviewPriorityContracts.test_priority_uses_predictions_and_support_not_outcomes) ... ok
+test_freeze_mismatch_stops_before_unpickling (test_runtime.RuntimeContracts.test_freeze_mismatch_stops_before_unpickling) ... ok
+test_legacy_missing_auxiliary_versions_are_explicit (test_runtime.RuntimeContracts.test_legacy_missing_auxiliary_versions_are_explicit) ... ok
+test_matching_runtime_is_json_only (test_runtime.RuntimeContracts.test_matching_runtime_is_json_only) ... ok
+test_missing_metadata_is_not_inferred_by_loading (test_runtime.RuntimeContracts.test_missing_metadata_is_not_inferred_by_loading) ... ok
+test_python_minor_mismatch_is_reported (test_runtime.RuntimeContracts.test_python_minor_mismatch_is_reported) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 7.537s
+
+OK

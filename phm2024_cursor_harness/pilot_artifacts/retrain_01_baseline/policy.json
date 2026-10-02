@@ -1,0 +1,8 @@
+{
+  "version": "pilot-v1",
+  "support_quantile": 0.99,
+  "coverage_min_n": 100,
+  "coverage_warning_below": 0.85,
+  "threshold_status": "provisional, engineering approval required",
+  "decision": "review recommendations only; no maintenance or flight control commands"
+}

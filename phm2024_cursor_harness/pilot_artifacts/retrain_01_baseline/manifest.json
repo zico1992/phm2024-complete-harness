@@ -1,0 +1,99 @@
+{
+  "name": "retrain-01-candidate",
+  "created_at": "2026-10-02T07:09:20.849517+00:00",
+  "baseline_sha256": "c20513add461d8a846b3d35df421b1cf0e95f542c5951b4e42410d9047f00fe5",
+  "reliability_sha256": "5622810ff4171af49703cadd65fd54be4ed60c499973341390551a56217ccdc5",
+  "policy_sha256": "582a1ac002e6cd4bf615d9f732403138947e6c0883e84cd36be1e734b5e34fbc",
+  "training_csv_sha256": "c504b5b12e96380c5b503a9f7bfab55753bfcb13854118ac839717f2c4f8432f",
+  "training_n": 556999,
+  "calibration_n": 74245,
+  "reference_n": 50000,
+  "spec": {
+    "mode": "combined",
+    "architecture": "direct"
+  },
+  "physics": {
+    "temperature_unit": "C",
+    "pa_meaning": "opaque",
+    "pa_unit": "unknown",
+    "ias_unit": "unknown",
+    "regimes": 6
+  },
+  "threshold": 0.30999999999999994,
+  "versions": {
+    "python": "3.13.0",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0"
+  },
+  "training_runtime_preflight": {
+    "status": "passed",
+    "source": "runs\\retrain_01\\environment.json",
+    "expected": {
+      "python": "3.13.0",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "sklearn": "1.8.0",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "joblib": "1.5.3",
+      "threadpoolctl": "3.6.0"
+    },
+    "installed": {
+      "python": "3.13.0",
+      "sklearn": "1.8.0",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "joblib": "1.5.3",
+      "threadpoolctl": "3.6.0"
+    },
+    "checked_packages": [
+      "sklearn",
+      "numpy",
+      "pandas",
+      "scipy",
+      "joblib",
+      "threadpoolctl"
+    ],
+    "unrecorded_packages": [],
+    "python_policy": "major.minor must match when recorded; patch differences permitted",
+    "model_loaded": false
+  },
+  "coverage_evidence": [
+    {
+      "regime": 0,
+      "n": 19261,
+      "coverage_90": 0.9114791547687036
+    },
+    {
+      "regime": 1,
+      "n": 10487,
+      "coverage_90": 0.9231429388767045
+    },
+    {
+      "regime": 2,
+      "n": 20100,
+      "coverage_90": 0.9055223880597015
+    },
+    {
+      "regime": 3,
+      "n": 2159,
+      "coverage_90": 0.9439555349698935
+    },
+    {
+      "regime": 4,
+      "n": 4421,
+      "coverage_90": 0.8959511422755033
+    },
+    {
+      "regime": 5,
+      "n": 17817,
+      "coverage_90": 0.8945950496716619
+    }
+  ],
+  "baseline_engine_ids": "unavailable; unseen-engine independence cannot be verified"
+}

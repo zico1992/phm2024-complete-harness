@@ -1,0 +1,14 @@
+# Local Python environments (recreate from requirements files)
+.venv-pilot/
+.venv/
+.venv-demo/
+
+# Caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Editor
+.idea/
+.vscode/
